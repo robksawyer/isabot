@@ -1,4 +1,7 @@
 [
+  "hubot-whois",
+  "hubot-cheese",
+  "hubot-illegal-legal",
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
@@ -9,6 +12,5 @@
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
-  "hubot-youtube",
-  "hubot-illegal-legal"
+  "hubot-youtube"
 ]
