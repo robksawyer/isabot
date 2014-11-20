@@ -1,5 +1,6 @@
 [
   "hubot-whois",
+  "hubot-browserstack",
   "hubot-cheese",
   "hubot-illegal-legal",
   "hubot-diagnostics",
