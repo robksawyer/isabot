@@ -5,6 +5,7 @@
   "author": "robksawyer",
   "description": "Isabot a bot? Eitherway Isabot is helping the minnow team clear the waters and take the stress out of the really hard decisions.",
   "dependencies": {
+    "clark": "0.0.6",
     "hubot": "^2.9.3",
     "hubot-browserstack": "~0.1.3",
     "hubot-cheese": "0.0.61",
@@ -24,7 +25,8 @@
     "hubot-speak": "~0.0.3",
     "hubot-tweets": "0.0.1",
     "hubot-whois": "~0.0.1",
-    "hubot-youtube": "^0.1.2"
+    "hubot-youtube": "^0.1.2",
+    "underscore": "^1.7.0"
   },
   "engines": {
     "node": "0.10.x"
