@@ -21,6 +21,7 @@
     "hubot-scripts": "^2.5.16",
     "hubot-shipit": "^0.1.1",
     "hubot-slack": "^2.2.0",
+    "hubot-tweets": "0.0.1",
     "hubot-whois": "~0.0.1",
     "hubot-youtube": "^0.1.2"
   },
