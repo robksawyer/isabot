@@ -1,7 +1,11 @@
-# It's a trap
+# Description:
+#   It's a trap.
 #
-# trap - Display an Admiral Ackbar piece of wonder
+# Commands:
+#   trap - Display an Admiral Ackbar piece of wonder
 #
+# Author:
+#   unknown
 
 ackbars = [
   "http://dayofthejedi.com/wp-content/uploads/2011/03/171.jpg",

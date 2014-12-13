@@ -1,11 +1,20 @@
-# Show uptime status of sites monitored by uptime robot.
+# Description:
+#   Show uptime status of sites monitored by uptime robot.
 #
-# You need to set the following variables:
-# HUBOT_UPTIMEROBOT_APIKEY = <apikey>
+# Dependencies:
+#   None
 #
-# what is the uptime of the monitored sites? -- Show the status of the monitored sites
-# start monitoring the http uptime of <url> -- Instructs uptime robot to monitor the <url>
-
+# Configuration:
+#   HUBOT_UPTIMEROBOT_APIKEY = <apikey>
+#
+# Commands:
+#   hubot what is the uptime of the monitored sites? - Show the status of the monitored sites
+#   hubot start monitoring the http uptime of <url> - Instructs uptime robot to monitor the <url>
+#   hubot monitor uptime of <url> - Instructs uptime robot to monitor the <url>
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   apikey = process.env.HUBOT_UPTIMEROBOT_APIKEY
 
@@ -34,7 +43,7 @@ module.exports = (robot) ->
           msg.send "Uhoh, #{response.message}";
 
 
-  robot.respond /start monitoring the http uptime of (.*)$/i, (msg) ->
+  robot.respond /start monitoring the http uptime of (.*)$|monitor uptime of (.*)$/i, (msg) ->
     monitorUrl = msg.match[1]
     monitorFriendlyName = msg.match[1]
     msg.http("http://api.uptimerobot.com/newMonitor")

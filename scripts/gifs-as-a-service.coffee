@@ -1,26 +1,25 @@
 # Description:
-#   None
+#   Returns an animated gif based on a set of terms. See below.
 #
 # Dependencies:
-#   None
+#   https
 #
 # Configuration:
-#   HUBOT_IMGUR_CLIENT_ID
+#   HUBOT_IMGUR_CLIENT_ID - Sign up at http://imgur.com.
 #
 # Commands:
 #   deal with it
-#   /clap
-#   /not bad
-#   /popcorn
-#   /haters(? gonna hate)
-#   /wut|wat|what
-#   /upvote
-#   /downvote
-#   /dance
+#   hubot clap
+#   hubot not bad
+#   hubot popcorn
+#   hubot haters gonna hate
+#   hubot wut|wat|what
+#   hubot upvote
+#   hubot downvote
+#   hubot dance
 #
 # Author:
 #   ajacksified
-
 
 https = require('https')
 

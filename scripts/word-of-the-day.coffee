@@ -1,12 +1,20 @@
-# Return the word of the day.
+# Description:
+#   Return the word of the day.
 #
-# You'll need an API key from http://developer.wordnik.com/ or from
-# http://developer.dictionary.com/
+# Dependencies:
+#   None
 #
-# Set the env variable WOTD_PROVIDER to 'wordnik' or 'dictionary'.
+# Configuration:
+#   You'll need an API key from http://developer.wordnik.com/ or from http://developer.dictionary.com/
+#   WOTD_PROVIDER - 'wordnik' or 'dictionary'
 #
-# wotd (me) (short) - Returns the word of the day.
-# word of the day (me) (short) - Returns the word of the day.
+# Commands:
+#   hubot wotd (me) (short) - Returns the word of the day.
+#   hubot word of the day (me) (short) - Returns the word of the day.
+#
+# Author:
+#   unknown
+#
 Parser = require("xml2js").Parser
 
 module.exports = (robot) ->

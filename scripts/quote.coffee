@@ -1,11 +1,20 @@
-# Display a random quote or one from a specific person
+# Description:
+#   Display a random quote or one from a specific person
 #
-# enlighten - random quote
-# quote     - random quote
-# quote from <person>
+# Dependencies:
+#   None
 #
-# Optionally set HUBOT_QUOTE_MAX_LINES to limit how long a quote
-# is. Default is 4
+# Configuration:
+#   Optionally set HUBOT_QUOTE_MAX_LINES to limit how long a quote is. 
+#   Default is 4.
+#
+# Commands:
+#   hubot [enlighten|quote] - Responds with a random quote.
+#   hubot quote from <person> - Responds with a random quote from <person>.
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /enlighten|quote from (.*)|quote/i, (msg) ->
     params = {max_lines: process.env.HUBOT_QUOTE_MAX_LINES || '4'}

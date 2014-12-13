@@ -1,6 +1,17 @@
-# Happiness in image form
+# Description:
+#   Happiness in image form
 #
-# me gusta - Display "Me Gusta" face when heard
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   me gusta - Display "Me Gusta" face when heard
+#
+# Author:
+#   unknown
 #
 module.exports = (robot) ->
   robot.hear /me gusta/i, (msg) ->

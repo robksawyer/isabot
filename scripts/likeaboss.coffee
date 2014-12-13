@@ -1,6 +1,18 @@
-# LIKE A BOSS
+# Description:
+#   LIKE A BOSS
 #
-
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot like a boss - Responds with a funny image related to "like a boss"
+#
+# Author:
+#   unknown
+#
 images = [
   "http://s3.amazonaws.com/kym-assets/photos/images/original/000/114/151/14185212UtNF3Va6.gif?1302832919",
   "http://s3.amazonaws.com/kym-assets/photos/images/newsfeed/000/110/885/boss.jpg",

@@ -1,11 +1,21 @@
-# Carlton Celebration
+# Description:
+#   Displays an animated gif related to accepting a challenge.
+#   
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   challenge accepted - Displays gif related to accepting challenge
 #
-# dance - Display a dancing Carlton
+# Author:
+#   unknown
 #
 
 carltons = [
   "http://hubot-assets.s3.amazonaws.com/challenge_accepted/1.png"
-
 ]
 
 module.exports = (robot) ->

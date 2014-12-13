@@ -1,4 +1,18 @@
-#gets tweet from user
+# Description:
+#   Returns a tweet from a specific user.
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot [twitter|lasttweet] <username> - Returns a tweet from Twitter <username>.
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /(twitter|lasttweet) (.+)$/i, (msg) ->
    username = msg.match[2]

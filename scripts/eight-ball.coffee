@@ -1,7 +1,18 @@
-# The Magic Eight ball
+# Description:
+#   The Magic Eight ball
+#   
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   hubot [eightball|8ball] <query> - Ask the magic eight ball a question
 #
-# eightball <query> - Ask the magic eight ball a question
-#
+# Author:
+#   unknown
+#   
 
 ball = [
   "It is certain",

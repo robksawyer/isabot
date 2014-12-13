@@ -1,7 +1,18 @@
-# Get directions between two locations
+# Description:
+#   Get directions between two locations using the Google maps API 
+#   
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   hubot get directions "<origin>" "<destination>" - Shows directions between these locations.
+#   
+# Author:
+#   unknown
 #
-# get directions "<origin>" "<destination>" -- Shows directions between these locations.
-
 parse_directions = (body) ->
   directions = JSON.parse body
   first_route = directions.routes[0]

@@ -1,7 +1,18 @@
-# Get a fortune
+# Description:
+#   Returns your fortune for the day.
+#   
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   hubot fortune me - Displays a super true fortune
 #
-# fortune me - Displays a super true fortune
-
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /(fortune)( me)?/i, (msg) ->
     msg.http('http://www.fortunefortoday.com/getfortuneonly.php')

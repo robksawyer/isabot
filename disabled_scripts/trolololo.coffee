@@ -1,8 +1,8 @@
 # Description:
-#   None
+#   Emphasize the mention of troll
 #
 # Dependencies:
-#   None
+#   https
 #
 # Configuration:
 #   HUBOT_IMGUR_CLIENT_ID
@@ -13,7 +13,6 @@
 #
 # Author:
 #   ajacksified
-
 
 https = require('https')
 

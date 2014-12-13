@@ -1,6 +1,18 @@
+# Description:
+#   Returns XBox-styled achievement for a user using their Gravatar email 
+#  
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#    
+# Commands:
+#   achievement get <achievement> [achiever's gravatar email] - life goals are in reach.
 #
-# achievement get <achievement> [achiever's gravatar email] - life goals are in reach.
-#
+# Author:
+#   unknown
+#   
 module.exports = (robot) ->
   robot.hear /achievement (get|unlock(ed)?) (.+?)(\s*[^@\s]+@[^@\s]+)?\s*$/i, (msg) ->
     caption = msg.match[3]

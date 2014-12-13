@@ -1,19 +1,21 @@
-# Race to the bottom.
+# Description:
+#   Race to the bottom.
+#   
+#   Battle it out with your mates to see who is the most important/coolest/sexiest/funniest/smartest of them all solely
+#   based on the clearly scientific number of twitter followers.
 #
-# Battle it out with your mates to see who is the
-# most important/coolest/sexiest/funniest/smartest of them all solely
-# based on the clearly scientific number of twitter followers.
+# Dependencies:
+#   None
 #
-# Vanity will check all the users that a specific twitter account, like say maybe
-# your company's twitter account, follows and display them in order by followers.
+# Configuration:
+#   HUBOT_VANITY_TWITTER_ACCOUNT
 #
-# Be sure to set the env var.
+# Commands:
+#   hubot vanity me - list peeps ordered by twitter followers
 #
-# HUBOT_VANITY_TWITTER_ACCOUNT
+# Author:
+#   unknown
 #
-# vanity me - list peeps ordered by twitter followers
-#
-
 Path     = require "path"
 sprintf  = require("sprintf").sprintf
 

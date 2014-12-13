@@ -1,7 +1,18 @@
-# Cowsay.
+# Description:
+#   Returns a cow that says what you want.
+# 
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#    
+# Commands:
+#   hubot cowsay me <statement> - Returns a cow that says what you want.
 #
-# cowsay <statement> - Returns a cow that says what you want.
-
+# Author:
+#  unknown
+#
 module.exports = (robot) ->
   robot.respond /cowsay( me)? (.*)/i, (msg) ->
     msg

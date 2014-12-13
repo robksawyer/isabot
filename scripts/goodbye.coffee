@@ -1,3 +1,18 @@
+# Description:
+#   Responds with good bye to let you know it cares.
+#   
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   [bye|later|see ya|see you|take care]
+#
+# Author:
+#   unknown
+#
 goodbye = (name) ->
   index = parseInt((Math.random() * goodbyes.length) >> 0)
   message = goodbyes[index]

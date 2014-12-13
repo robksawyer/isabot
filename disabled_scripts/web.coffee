@@ -1,7 +1,18 @@
-# Webutility
+# Description:
+#   A simple web utility.
 #
-# returns title of urls
-
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot command <some action or text> - What did this command do?
+#
+# Author:
+#   unknown
+#
 Select     = require("soupselect").select
 HtmlParser = require "htmlparser"
 

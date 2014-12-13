@@ -1,37 +1,40 @@
-# Play music. At your office. Like a boss.
+# Description:
+#   Play music. At your office. Like a boss. 
+#   Learn about Play via the screencast: http://zachholman.com/screencast/play/
 #
-# play.coffee uses play, an open source API to playing music:
-#   https://github.com/holman/play
+# Dependencies:
+#   play.coffee uses play, an open source API to playing music: https://github.com/holman/play
 #
-# You can watch the screencast at:
-#   http://zachholman.com/screencast/play/
+# Configuration:
+#   HUBOT_PLAY_URL - URL to your company's play
 #
-# Make sure you set up your HUBOT_PLAY_URL environment variable with the URL to
-# your company's play.
+# Commands:
+#   hubot play - Plays music.
+#   hubot stop - Stops the music.
+#   hubot play next - Plays the next song.
+#   hubot what's playing - Returns the currently-played song.
+#   hubot I want this song - Returns a download link for the current song.
+#   hubot I want this album - Returns a download link for the current album.
+#   hubot play <artist> - Queue up ten songs from a given artist.
+#   hubot play <name> by <artist> - Queues up a song by an artist.
+#   hubot play album <album> - Queues up an album.
+#   hubot list songs by <artist> - Lists the songs by the artist String.
+#   hubot where's play - Gives you the URL to the web app.
+#   hubot volume [0-10] - Adjust the volume of play.
+#   hubot be quiet - Mute play.
+#   hubot say <message> - `say` your message over your speakers.
+#   hubot play stats - Show some play stats.
 #
-# play - Plays music.
-# stop - Stops the music.
-# play next - Plays the next song.
-# what's playing - Returns the currently-played song.
-# I want this song - Returns a download link for the current song.
-# I want this album - Returns a download link for the current album.
-# play <artist> - Queue up ten songs from a given artist.
-# play <name> by <artist> - Queues up a song by an artist.
-# play album <album> - Queues up an album.
-# list songs by <artist> - Lists the songs by the artist String.
-# where's play - Gives you the URL to the web app.
-# volume [0-10] - Adjust the volume of play.
-# be quiet - Mute play.
-# say <message> - `say` your message over your speakers.
-# play stats - Show some play stats.
+# Author:
+#   unknown
+#
+
 no_fucks = [
   "You have a weird taste in music, but I'll remember it.",
-"Really? I hate this song.",
-"Good for you. Have a cookie.",
-"How horrible of you."
-
+  "Really? I hate this song.",
+  "Good for you. Have a cookie.",
+  "How horrible of you."
 ]
-
 
 URL = "#{process.env.HUBOT_PLAY_URL}/api"
 

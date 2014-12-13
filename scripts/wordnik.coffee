@@ -1,9 +1,20 @@
-# Dictionary definitions with the Wordnik API. You'll need an API key from http://developer.wordnik.com/
+# Description:
+#   Dictionary definitions with the Wordnik API. You'll need an API key from http://developer.wordnik.com/
 #
-# define me <word> - Grabs a dictionary definition of a word.
-# pronounce me <word> - Links to a pronunciation of a word.
-# spell me <word> - Suggests correct spellings of a possible word.
-
+# Dependencies:
+#   None
+#
+# Configuration:
+#   WORDNIK_API_KEY
+#
+# Commands:
+#   hubot define me <word> - Grabs a dictionary definition of a word.
+#   hubot pronounce me <word> - Links to a pronunciation of a word.
+#   hubot spell me <word> - Suggests correct spellings of a possible word.
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   # Word definition
   robot.respond /define( me)? (.*)/i, (msg) ->

@@ -1,7 +1,18 @@
-# Search for a job and profit!
+# Description:
+#   Search for a job and profit!
+#   
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#      
+# Commands:
+#   hubot find me a <industry> job in <location> - Returns a job for a certain industry passed in a certain location passed.
 #
-# find me a <technology> job in <location>
-
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /find me a (.* )?job( in (.+))?/i, (msg) ->
     [keywords, location] = [msg.match[1], msg.match[3]]

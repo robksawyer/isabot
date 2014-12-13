@@ -1,7 +1,18 @@
-# Is it the day ?
+# Description:
+#   Responds with whether or not it is the day for some action. It controls your destiny.
+#   
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   hubot is it <action> day ? - Returns if it's the day for your action.
 #
-# is it <action> day ? - Returns if it's the day for your action.
-#                      
+# Author:
+#   unknown
+#                
 module.exports = (robot) ->
   robot.respond /is it (\w+) day \?/i, (msg) ->
     action = msg.match[1]

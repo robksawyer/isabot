@@ -1,10 +1,22 @@
-# Display a picture of Michael Jordan if anyone invokes "jordan" or says "23"
-# Cause Jordan is God. So much more than Steve Jobs :D 
-
-images = [
+# Description:
+#   Responds with something that the Wu-Tang Clan might say. 
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot wu-tang - Responds with "AINT NOTHING TO FUCK WITH!".
+#
+# Author:
+#   unknown
+#
+quotes = [
   "AINT NOTHING TO FUCK WITH!"
 ]
 
 module.exports = (robot) ->
   robot.hear /(wu-tang)/i, (msg) ->
-    msg.send msg.random images
+    msg.send msg.random quotes

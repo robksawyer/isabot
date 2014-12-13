@@ -1,9 +1,18 @@
-# Allows Hubot to speak many languages.
+# Description:
+#   Allows Hubot to speak many languages.
 #
-# speak me <phrase> - Detects the language 'phrase' is written in, then
-#                     sends back a spoken version of that phrase in its native
-#                     language.
-
+# Dependencies:
+#   None
+#
+# Configuration:
+#   HUBOT_MSTRANSLATE_APIKEY - (Account Key) Sign up at http://www.bing.com/toolbox/bingsearchapi
+#
+# Commands:
+#   hubot speak me <phrase> - Detects the language 'phrase' is written in, then sends back a spoken version of that phrase in its native language.
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.hear /(speak)( me)? (.*)/i, (msg) ->
     term   = "\"#{msg.match[3]}\""
@@ -15,7 +24,7 @@ module.exports = (robot) ->
     speak = "http://api.microsofttranslator.com/V2/Ajax.svc/Speak"
 
     unless apiKey
-      msg.send "MS Translate API key isn't set, get a key at http://www.bing.com/developers/appids.aspx"
+      msg.send "MS Translate API key isn't set, get a key at http://www.bing.com/toolbox/bingsearchapi"
       msg.send "Then, set the HUBOT_MSTRANSLATE_APIKEY environment variable"
       return
 

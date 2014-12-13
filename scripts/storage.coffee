@@ -1,9 +1,19 @@
-# Inspect the data in redis easily
+# Description:
+#   Inspect the data in redis easily.
 #
-# show users - Display all users that hubot knows about
-# show storage - Display the contents that are persisted in redis
+# Dependencies:
+#   None
 #
-
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot show users - Display all users that hubot knows about
+#   hubot show storage - Display the contents that are persisted in redis
+#
+# Author:
+#   unknown
+#
 Util = require "util"
 
 module.exports = (robot) ->

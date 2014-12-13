@@ -1,6 +1,17 @@
-# Help decide between two things
+# Description:
+#   Helps you decide between two things by flipping a coin.
+# 
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#  
+# Commands:
+#   hubot [throw|flip|toss] a coin - Gives you heads or tails
 #
-# throw a coin - Gives you heads or tails
+# Author:
+#   unknown
 #
 
 thecoin = ["heads", "tails"]

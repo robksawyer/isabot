@@ -1,9 +1,16 @@
-# Extends robot adding conversation features
-
+# Description:
+#   Extends robot adding conversation features
+#
+# Commands:
+#   
+#   
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.eatListeners = {}
 
-  # Public: Adds a Listener that receives the next message from the user and av
+  # Public: Adds a Listener that receives the next message from the user and and
   # further processing of it.
   #
   # user     - The user name.
@@ -14,7 +21,7 @@ module.exports = (robot) ->
   robot.eatOneResponse = (user, callback) ->
     robot.eatListeners[user.id] = new Listener(robot, callback)
 
-  # Change default receive command, addind processing of eatListeners
+  # Change default receive command, adding processing of eatListeners
   robot.origReceive = robot.receive
   robot.receive = (message) ->
     if robot.eatListeners[message.user.id]?

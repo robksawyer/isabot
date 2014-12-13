@@ -1,11 +1,21 @@
-# Tracks when stuff is due.
+# Description:
+#   Tracks when stuff is due.
+# 
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#  
+# Commands:
+#   hubot deadlines - List what you have due
+#   hubot [create|add|set] deadline <2011-10-30> <Thing> - Add a deadline for October 10, 2011
+#   hubot [delete|remove|complete] deadline <Thing> - Remove a deadline named "Thing"
+#   hubot [clear|flush] deadlines - Remove all the deadlines
 #
-# deadlines - List what you have due
-# add deadline 2011-10-30 Thing - Add a deadline for October 10, 2011
-# remove deadline Thing - Remove a deadline named "Thing"
-# clear deadlines - Remove all the deadlines
+# Author:
+#   @jmhobbs
 #
-# Written by @jmhobbs
 
 module.exports = (robot) ->
 

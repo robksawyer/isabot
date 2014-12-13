@@ -1,7 +1,18 @@
-# Returns the URL of the first bing hit for a query
+# Description:
+#   Returns the URL of the first bing hit for a query
+#   
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   hubot bing me <query>   - Bings <query> & returns 1st result's URL
 #
-# bing me <query>   - Bings <query> & returns 1st result's URL
-
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /(bing)( me)? (.*)/i, (msg) ->
     bingMe msg, msg.match[3], (url) ->

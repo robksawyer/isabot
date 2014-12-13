@@ -1,7 +1,20 @@
-# Capture a webpage as an image using the bluga.net Easythumb API. API user and key needed from http://webthumb.bluga.net/api
+# Description:
+#   Capture a webpage as an image using the bluga.net Easythumb API. 
 #
-# webshot me <url> - Captures the given url as an image.
-
+# Dependencies:
+#   None
+#
+# Configuration:
+#   API user and key needed from http://webthumb.bluga.net/api.
+#   HUBOT_WEBTHUMB_USER
+#   HUBOT_WEBTHUMB_API_KEY
+#
+# Commands:
+#   hubot webshot me <url> - Captures the given url as an image.
+#
+# Author:
+#   unknown
+#
 hashlib = require('MD5')
 
 module.exports = (robot) ->

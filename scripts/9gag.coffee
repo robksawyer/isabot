@@ -1,9 +1,20 @@
-# 9gag me - Returns a random meme image.
+# Description:
+#   Returns a random meme from 9gag
+#   
+# Dependencies:
+#   soupselect
+#   htmlparser
+#
+# Configuration:
+#   None
+#   
+# Commands:
+#   hubot 9gag me - Returns a random meme image.
+#
+# Author:
+#   Rewrite by Enrique Vidal
 
-# Random meme from 9gag
-# Rewrite by Enrique Vidal
-
-Select      = require( "soupselect" ).select
+Select      = require("soupselect").select
 HTMLParser  = require "htmlparser"
 
 module.exports = (robot)->

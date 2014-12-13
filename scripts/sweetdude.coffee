@@ -1,3 +1,18 @@
+# Description:
+#   Emphasizes "sweet dude".
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot [sweet|dude] - Emphasis matters.
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.hear /^(sweet|dude)!/i, (msg) ->
     console.log msg.match

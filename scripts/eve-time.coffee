@@ -1,12 +1,12 @@
 # Description:
-#   Time in eve
-#
+#   It's Eve Time Ya'll. Does the work to help you figure out evetime.
+#   
 # Dependencies:
-#   None
-#
+#   None 
+#   
 # Configuration:
 #   None
-#
+#   
 # Commands:
 #   hubot evetime
 #

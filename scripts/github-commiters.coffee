@@ -1,5 +1,5 @@
 # Description:
-#   Show the commiters from a repo
+#   Show the commiters from a repo.
 #
 # Dependencies:
 #   "githubot": "0.2.0"

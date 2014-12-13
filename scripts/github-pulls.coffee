@@ -10,8 +10,13 @@
 #   HUBOT_GITHUB_API
 #
 # Commands:
-#   HUBOT_GITHUB_USER is optional, but if you set it, you can ask `show me hubot pulls`
-#   instead of `show me github/hubot pulls`.
+#   HUBOT_GITHUB_USER is optional, but if you set it, you can ask:
+#   
+#   hubot show me hubot pulls
+#   
+#   instead of: 
+#   
+#   hubot show me github/hubot pulls
 #
 #   HUBOT_GITHUB_API allows you to set a custom URL path (for Github enterprise users)
 #

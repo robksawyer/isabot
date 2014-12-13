@@ -1,7 +1,18 @@
-# GOOD Night
+# Description:
+#   Responds with goodnight to let you know it cares.
+#   
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   [good night|bye|nighty night]
 #
-# good night
-
+# Author:
+#   unknown
+#
 ways_to_say_good_night = [
   "Good night, baby.",
   "Night hot stuff.",

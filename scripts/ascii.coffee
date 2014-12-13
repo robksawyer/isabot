@@ -1,7 +1,18 @@
-# ASCII art.
+# Description:
+#   ASCII art.
+#   
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   hubot ascii me <text> - Show text in ascii art.
 #
-# ascii me <text> - Show text in ascii art.
-
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /ascii( me)? (.+)/i, (msg) ->
     msg

@@ -1,5 +1,18 @@
-# Watch your language!
-
+# Description:
+#   Watch your language!
+#   
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#    
+# Commands:
+#   wank - Scolds a user for using the word 
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
 
   words = [

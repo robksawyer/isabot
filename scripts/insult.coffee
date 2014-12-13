@@ -1,4 +1,18 @@
-# insult <name> - give <name> the what-for
+# Description:
+#   Insults the user passed with a set phrase.
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot insult <name> - give <name> the what-for
+#
+# Author:
+#   unknown
+#
 
 module.exports = (robot) ->
   robot.respond /insult (.*)/i, (msg) ->

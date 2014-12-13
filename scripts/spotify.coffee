@@ -1,6 +1,17 @@
-# Metadata lookup for spotify links
+# Description:
+#   Metadata lookup for spotify links
 #
-# <spotify link> - returns info about the link (track, artist, etc.)
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   <spotify link> - returns info about the link (track, artist, etc.)
+#
+# Author:
+#   unknown
 #
 
 module.exports = (robot) ->

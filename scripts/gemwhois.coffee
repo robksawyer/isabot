@@ -1,8 +1,18 @@
-# Whois for gems, because gem names are like domains in the 90's
+# Description:
+#   Whois for gems, because gem names are like domains in the 90's
+#   
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   hubot gem whois <gemname> - returns gem details if it exists
 #
-# gem whois <gemname> - returns gem details if it exists
+# Author:
+#   unknown
 #
-
 module.exports = (robot) ->
   robot.respond /gem whois (.*)/i, (msg) ->
     gemname = escape(msg.match[1])

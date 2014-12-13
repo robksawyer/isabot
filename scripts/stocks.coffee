@@ -1,8 +1,19 @@
-# Finance charts.
+# Description:
+#   Grab finance charts.
 #
-# stock me <ticker> - show today's stock chart for <ticker>
-# stock me -(5d|2w|2mon|1y) <ticker> - show stock chart for <ticker>
-
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot stock me <ticker> - show today's stock chart for <ticker>
+#   hubot stock me -(5d|2w|2mon|1y) <ticker> - show stock chart for <ticker>
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
 
   robot.respond /stock( me)?( -(\d+\w+))? (.*)/i, (msg) ->

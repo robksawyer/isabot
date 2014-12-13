@@ -1,21 +1,32 @@
-# No Fucks Given
+# Description:
+#   Grabs some popcorn and just chills.
 #
-# no fuck - display a not a fuck was given meme
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   [popcorn|grabs popcorn|get popcorn] - Responds with a popcorn meme.
+#
+# Author:
+#   unknown
 #
 
-no_fucks = [
-  "http://hubot-assets.s3.amazonaws.com/popcorn/1.gif",
-"http://hubot-assets.s3.amazonaws.com/popcorn/2.gif",
-"http://hubot-assets.s3.amazonaws.com/popcorn/3.gif",
-"http://hubot-assets.s3.amazonaws.com/popcorn/4.gif",
-"http://hubot-assets.s3.amazonaws.com/popcorn/5.gif",
-"http://hubot-assets.s3.amazonaws.com/popcorn/6.gif",
-"http://hubot-assets.s3.amazonaws.com/popcorn/7.gif",
-"http://hubot-assets.s3.amazonaws.com/popcorn/8.gif",
-"http://hubot-assets.s3.amazonaws.com/popcorn/9.gif",
-"http://hubot-assets.s3.amazonaws.com/popcorn/10.gif"
+popcorn = [
+  "http://weknowgifs.com/wp-content/uploads/2013/03/stephen-colbert-popcorn-gif1.gif",
+  "http://weknowgifs.com/wp-content/uploads/2013/03/snl-popcorn-gif.gif",
+  "http://weknowgifs.com/wp-content/uploads/2013/03/psyche-eating-popcorn-gif.gif",
+  "http://www.myfacewhen.net/uploads/6421-michael-jackson-eating-popcorn.gif",
+  "http://i898.photobucket.com/albums/ac183/gumbynotpokey/popcorn_zpsb03273f2.jpg",
+  "http://i.imgur.com/3rj18Rv.gif",
+  "http://static.giantbomb.com/uploads/original/11/116066/2283684-Jimmy_bieber_Popcorn_cu-thumb-350x197-14878.gif",
+  "http://i.imgur.com/sOksm.gif",
+  "http://i3.kym-cdn.com/photos/images/original/000/294/880/851.gif",
+  "http://www.reactiongifs.us/wp-content/uploads/2013/05/popcorn_danny_devito.gif"
 ]
 
 module.exports = (robot) ->
   robot.hear /.*(popcorn|grabs popcorn|get popcorn).*/i, (msg) ->
-    msg.send msg.random no_fucks
+    msg.send msg.random popcorn

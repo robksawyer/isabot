@@ -1,5 +1,18 @@
-# Outputs bot uptime
-
+# Description:
+#   Outputs your bot's uptime.
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot uptime - Outputs the bots uptime.
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
 
   start = new Date().getTime()

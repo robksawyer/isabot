@@ -1,7 +1,18 @@
-# Which does exobot like best?
+# Description:
+#   Which does exobot like best?
 #
-# which do you (like|like best|prefer): <thing> or <thing> [.. or <thing> to infinity]?
-
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot which do you (like|like best|prefer): <thing> or <thing> - Makes a decision.
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /(which )?do you (like|like best|prefer)[:,\s]? (.*)$/i, (msg) ->
     split = msg.match[3].split(" or ")

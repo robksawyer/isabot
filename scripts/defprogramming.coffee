@@ -1,4 +1,19 @@
-# def programming - Display a random programming quote from defprogramming.com
+# Description:
+#   Displays a random programming quote from http://defprogramming.com.
+# 
+# Dependencies:
+#   soupselect
+#   htmlparser 
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   hubot def programming - Display a random programming quote from defprogramming.com
+#
+# Author:
+#   unknown
+#
 
 Select     = require("soupselect").select
 HtmlParser = require "htmlparser"

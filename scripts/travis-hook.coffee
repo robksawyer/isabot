@@ -1,5 +1,5 @@
 # Description:
-#   "Travis CI alert hook"
+#   Travis CI alert hook
 #
 # Configuration:
 #   None

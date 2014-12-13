@@ -1,15 +1,20 @@
-# Roll a dice!
+# Description:
+#   Roll a dice!
 #
-# roll              - Generates a random number between 1 and 100 inclusive
-# roll <num>        - Generates a random number between 1 and <num> inclusive
-# roll <num>-<num2> - Generates a random number between <num> and <num2> inclusive
+# Dependencies:
+#   None
 #
-# Examples
+# Configuration:
+#   None
 #
-#   roll
-#   # => rolled a 99 of 100
-#   roll 6
-#   # => rolled a 5 of 6
+# Commands:
+#   hubot roll - Generates a random number between 1 and 100 inclusive
+#   hubot roll <num> - Generates a random number between 1 and <num> inclusive
+#   hubot roll <num>-<num2> - Generates a random number between <num> and <num2> inclusive
+#
+#
+# Author:
+#   unknown
 #
 module.exports = (robot) ->
   robot.respond /(roll)\s?(\d+)?-?(\d+)?/i, (msg) ->

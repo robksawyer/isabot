@@ -1,8 +1,19 @@
-# gifbin me - Return random gif from gifbin.com
-
-# Random gif from gifbin.com
-# Enrique Vidal - enrique@cloverinteractive.com
-
+# Description:
+#   Return random gif from http://gifbin.com
+#
+# Dependencies:
+#   soupselect
+#   htmlparser
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot gifbin me - Returns a random gif from http://gifbin.com
+#
+# Author:
+#   Enrique Vidal (enrique@cloverinteractive.com)
+#
 Select      = require( "soupselect" ).select
 HTMLParser  = require "htmlparser"
 gif_domain  = "http://www.gifbin.com"

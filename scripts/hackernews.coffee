@@ -1,8 +1,21 @@
-# Hacker News
+# Description:
+#   Hacker News
 #
-# hn top <N> - get the top N items on hacker news (or your favorite RSS feed)
-# hn.top - refer to the top item on hn
-# hn[i] - refer to the ith item on hn
+# Dependencies:
+#   nodepie
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   hubot hn top <N> - get the top N items on hacker news (or your favorite RSS feed)
+#   hubot hn.top - refer to the top item on hn
+#   hubot hn[i] - refer to the ith item on hn
+#
+# Author:
+#   unknown
+#
+
 NodePie = require("nodepie")
 
 hnFeedUrl = "https://news.ycombinator.com/rss"

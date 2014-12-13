@@ -1,4 +1,21 @@
+# Description:
+#   Returns a TV show from http://services.tvrage.com.
+#
+# Dependencies:
+#   xml2js
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot command <some action or text> - What did this command do?
+#
+# Author:
+#   unknown
+#
+
 xml2js = require "xml2js"
+
 module.exports = (robot) ->
   robot.respond /tvshow(?: me)? (.*)/i, (msg) ->
     query = encodeURIComponent(msg.match[1])

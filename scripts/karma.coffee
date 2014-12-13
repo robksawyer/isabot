@@ -1,8 +1,20 @@
-# Track arbitrary karma
+# Description:
+#   Track arbitrary karma
 #
-# <thing>++ - give thing some karma
-# <thing>-- - take away some of thing's karma
-# karma <thing> - check thing's karma, if <thing> is ommitted get top and bottom 3
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   <thing>++ - give thing some karma
+#   <thing>-- - take away some of thing's karma
+#   hubot karma <thing> - check thing's karma, if <thing> is ommitted get top and bottom 3
+#
+# Author:
+#   unknown
+#
 class Karma
   constructor: (@robot) ->
     @cache = {}

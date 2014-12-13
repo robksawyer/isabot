@@ -1,8 +1,19 @@
-# Show random octocat
+# Description:
+#   Shows a random octocat.
 #
-# octocat me - a randomly selected octocat
-# octocat bomb me <number> - octocat-splosion!
-
+# Dependencies:
+#   xml2js
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot octocat me - a randomly selected octocat
+#   hubot octocat bomb me <number> - octocat-splosion!
+#
+# Author:
+#   unknown
+#
 xml2js = require('xml2js')
 
 module.exports = (robot) ->

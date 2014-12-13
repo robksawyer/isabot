@@ -1,11 +1,20 @@
-# Allows you to send links to the RssToDoList service made by Gregory Paul (https://github.com/paulgreg) : 
+# Description:
+#   Allows you to send links to the RssToDoList service made by Gregory Paul (https://github.com/paulgreg)
+#   http://rsstodolist.appspot.com/ 
 #
-# http://rsstodolist.appspot.com/ 
+# Dependencies:
+#   None
 #
-# rtdl show <user_name>       - Display the <user_name> RssToDoList feed url
-# rtdl add <user_name> <link> - Send the <link> to <user_name> RssToDoList feed
+# Configuration:
+#   None
 #
-
+# Commands:
+#   hubot rtdl show <user_name> - Display the <user_name> RssToDoList feed url
+#   hubot rtdl add <user_name> <link> - Send the <link> to <user_name> RssToDoList feed
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /rtdl (add|show) ([^ ]*)( .*)?/i, (msg) ->
    server_url = 'http://rsstodolist.appspot.com'

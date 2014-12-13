@@ -1,8 +1,18 @@
-# Display a random tweet from twitter about a subject
+# Description:
+#   Display a random tweet from twitter about a subject
 #
-# <keyword> tweet - Returns a link to a tweet about <keyword>
+# Dependencies:
+#   None
 #
-
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot <keyword> tweet - Returns a link to a tweet about <keyword>
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /(.*) tweet/i, (msg) ->
     search = escape(msg.match[1])

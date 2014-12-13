@@ -1,7 +1,18 @@
-# Dilbert
+# Description:
+#   Gets the daily Dilbert
 #
-# show me dilbert - gets the daily dilbert
-
+# Dependencies:
+#   htmlparser
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   hubot show me dilbert - returns the daily Dilbert
+#
+# Author:
+#   unknown
+#
 htmlparser = require "htmlparser"
 
 module.exports = (robot) ->

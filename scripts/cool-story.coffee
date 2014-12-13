@@ -1,3 +1,19 @@
+# Description:
+#   Responds with a twisted version of "cool story bro."
+# 
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#  
+# Commands:
+#   cool story bro - Responds with a twisted version
+#
+# Author:
+#   unknown
+#
+
 cool = ["superb",
         "great",
         "awesome",

@@ -1,5 +1,5 @@
 # Description:
-#   "Stripe alert hook"
+#   Stripe alert hook
 #
 # Configuration:
 #   None

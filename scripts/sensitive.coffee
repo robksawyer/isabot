@@ -1,4 +1,18 @@
-# Hubot has feelings too, you know
+# Description:
+#   Hubot has feelings too, you know
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot [you|u|is] [stupid|buggy|useless|dumb] - Responds emotionally.
+#
+# Author:
+#   unknown
+#
 
 messages = [
   "Hey, that stings."

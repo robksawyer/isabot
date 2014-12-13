@@ -1,8 +1,18 @@
-# Last (or current) played song by a user in Last.fm
+# Description:
+#   Last (or current) played song by a user in Last.fm
 #
-# hubot <what's playing> someone - Returns song name and artist
+# Dependencies:
+#   None
 #
-
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot <what's playing> someone - Returns song name and artist
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /what's playing (.*)/i, (msg) ->
     user = escape(msg.match[1])

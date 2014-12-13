@@ -1,7 +1,18 @@
-# Searches Urbandictionary
+# Description:
+#   Searches Urban Dictionary
 #
-# urban <word> Searches Urbandictionary
-
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot urban <word> - Searches http://urbandictionary.com.
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /urban( me)? (.*)$/i, (msg) ->
    word = msg.match[2]

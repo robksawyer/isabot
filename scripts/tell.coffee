@@ -1,6 +1,18 @@
-# Tell Hubot to send a user a message when present in the room
+# Description:
+#   Tell Hubot to send a user a message when present in the room.
 #
-# tell <username> <some message>
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot tell <username> <some message> - Sends a mesage to a user when they're available in the room.
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
    localstorage = {}
    robot.respond /tell (\w*) (.*)/i, (msg) ->

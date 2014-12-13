@@ -1,9 +1,19 @@
-# Domain availability via DNSimple, requires you set
-# DNSIMPLE_USERNAME & DNSIMPLE_PASSWORD environment variables
+# Description:
+#   Checks domain availability via DNSimple.
 #
-# check domain <domainname> - returns whether a domain is available
+# Dependencies:
+#   An account on DNSSimple. Sign up at https://dnsimple.com.
 #
-
+# Configuration:
+#   DNSIMPLE_USERNAME
+#   DNSIMPLE_PASSWORD
+#
+# Commands:
+#   hubot check domain <domainname> - Returns whether or not the domain is available with a snarky tone.
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.hear /check domain (.*)/i, (msg) ->
     domain = escape(msg.match[1])

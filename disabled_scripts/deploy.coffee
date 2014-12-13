@@ -41,7 +41,7 @@ module.exports = (robot) ->
           msg.send 'Something went horribly wrong'
         else
           msg.send 'Deployed like a boss'
-          msg.send 'http://hubot-assets.s3.amazonaws.com/fuck-yeah/3.gif'
+          msg.send 'http://replygif.net/i/742.gif'
     else
       msg.send 'Nope. I dont know what that is. Try deploying one of these: ' + repos.join(", ")
 
@@ -62,7 +62,7 @@ module.exports = (robot) ->
           msg.send 'Something went horribly wrong'
         else
           msg.send 'Updated like a boss'
-          msg.send 'http://hubot-assets.s3.amazonaws.com/fuck-yeah/3.gif'
+          msg.send 'http://replygif.net/i/742.gif'
     else
       msg.send 'Nope. I dont know what that is. Try updating one of these: ' + repos.join(", ")
 
@@ -79,7 +79,7 @@ module.exports = (robot) ->
           msg.send 'Something went horribly wrong'
         else
           msg.send 'Invalidated like a boss'
-          msg.send 'http://hubot-assets.s3.amazonaws.com/fuck-yeah/3.gif'
+          msg.send 'http://replygif.net/i/742.gif'
     else
       msg.send 'Nope. I dont know what that is. Try invalidating one of these: ' + repos.join(", ")
 
@@ -96,6 +96,6 @@ module.exports = (robot) ->
           msg.send 'Something went horribly wrong'
         else
           msg.send 'Deployed to staging environment like a boss'
-          msg.send 'http://hubot-assets.s3.amazonaws.com/fuck-yeah/3.gif'
+          msg.send 'http://replygif.net/i/742.gif'
     else
       msg.send 'Nope. I dont know what that is. Try staging one of these: ' + repos.join(", ")

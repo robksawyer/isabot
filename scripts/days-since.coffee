@@ -1,9 +1,22 @@
-# Generates commands to track days since an event
+# Description:
+#   Generates commands to track days since an event.
+# 
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#  
+# Commands:
+#   hubot it's been <number> days since <event> - Set the day when the event happened
+#   hubot <event> on <date> - Set the date the event happened (yyyy-mm-dd)
+#   hubot how long since <event>? - Display the number of days since the event
+#   hubot when [was/is/did] <event>?
 #
-# it's been <number> days since <event> - Set the day when the event happened
-# <event> on <date> - Set the date the event happened (yyyy-mm-dd)
-# how long since <event>? - Display the number of days since the event
-# when was/is/did <event>?
+# Author:
+#   unknown
+#
+
 
 module.exports = (robot) ->
   robot.respond /(.*?) on ((19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01]))$/, (msg) ->

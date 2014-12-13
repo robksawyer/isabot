@@ -1,42 +1,34 @@
-# Integrates with memegenerator.net
+# Description:
+#   Integrates with memegenerator.net
 #
-# Y U NO <text>              - Generates the Y U NO GUY with the bottom caption
-#                              of <text>
+# Dependencies:
+#   None
 #
-# I don't always <something> but when i do <text> - Generates The Most Interesting man in the World
+# Configuration:
+#   None
 #
-# <text> ORLY?               - Generates the ORLY? owl with the top caption of <text>
+# Commands:
+#   hubot  Y U NO <text> - Generates the Y U NO GUY with the bottom caption of <text>
+#   I don't always <something> but when i do <text> - Generates The Most Interesting man in the World
+#   <text> ORLY? - Generates the ORLY? owl with the top caption of <text>
+#   <text> (SUCCESS|NAILED IT) - Generates success kid with the top caption of <text>
+#   <text> ALL the <things> - Generates ALL THE THINGS
+#   <text> TOO DAMN <high> - Generates THE RENT IS TOO DAMN HIGH guy
+#   Good news everyone! <news> - Generates Professor Farnsworth
+#   khanify <text> - TEEEEEEEEEEEEEEEEEXT!
+#   Not sure if <text> or <text> - Generates Futurama Fry
+#   Yo dawg <text> so <text> - Generates Yo Dawg
+#   One does not simply <text> - Generates "one does not simply" 
+#   Scumbag <name> <text> - Generates Scumbag Steve
+#   What if I told you <text> - Generates Morpheus
+#   Prepare yourself <text> - Generates Ned
+#   Oh robot.name <text> - Generates Meme Dad
+#   Am I the only one around here <text> - Generates that
+#   Why don't we take all the <text> and <text> - put it over there patrick
+#   
+# Author:
+#   unknown
 #
-# <text> (SUCCESS|NAILED IT) - Generates success kid with the top caption of <text>
-#
-# <text> ALL the <things>    - Generates ALL THE THINGS
-#
-# <text> TOO DAMN <high> - Generates THE RENT IS TOO DAMN HIGH guy
-#
-# Good news everyone! <news> - Generates Professor Farnsworth
-#
-# khanify <text> - TEEEEEEEEEEEEEEEEEXT!
-#
-# Not sure if <text> or <text> - Generates Futurama Fry
-#
-# Yo dawg <text> so <text> - Generates Yo Dawg
-#
-# One does not simply <text> - Generates "one does not simply" 
-#
-# Scumbag <name> <text> - Generates Scumbag Steve
-#
-# What if I told you <text> - Generates Morpheus
-#
-# Prepare yourself <text> - Generates Ned
-#
-# Oh robot.name <text> - Generates Meme Dad
-#
-# Am I the only one around here <text> - Generates that
-#
-# Why don't we take all the <text> and <text> - put it over there patrick
-
-
-
 
 
 module.exports = (robot) ->

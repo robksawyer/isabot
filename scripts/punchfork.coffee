@@ -1,7 +1,18 @@
-# Grab a Punchform recipe - http://punchfork.com/api
+# Description:
+#   Grab a Punchform recipe from http://punchfork.com/api.
+#   Punchfork - Instantly browse the best new recipes from top food sites in one place.
 #
-# Punchfork         - Instantly browse the best new recipes from top food sites in one place.
-# cook <ingredent>  - Suggest recipe based on ingredent
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot cook <ingredent>  - Suggest recipe based on ingredent
+#
+# Author:
+#   unknown
 #
 module.exports = (robot) ->
   robot.respond /cook (.*)$/i, (msg) ->

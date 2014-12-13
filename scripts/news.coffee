@@ -1,8 +1,19 @@
-# Returns the latest news headlines from Google
+# Description:
+#   Returns the latest news headlines from Google
 #
-# news - Get the latest headlines
-# news <topic> - Get the latest headlines for a specific topic
-
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot news me - Get the latest headlines
+#   hubot news [me on] <topic> - Get the latest headlines for a specific topic
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /news(?: me| on)?\s?(.*)/, (msg) ->
     query msg, (response, err) ->

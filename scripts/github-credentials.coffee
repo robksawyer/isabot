@@ -1,11 +1,22 @@
-# Github Credentials allows you to map your user against your GitHub user.
-# This is specifically in order to work with apps that have GitHub Oauth users.
+# Description:
+#   Github Credentials allows you to map your user against your GitHub user. 
+#   This is specifically in order to work with apps that have GitHub Oauth users.
 #
-# who do you know - List all the users with github logins tracked by Hubot
-# i am `maddox` - map your user to the github login `maddox`
-# who am i - reveal your mapped github login
-# forget me - de-map your user to your github login
-
+# Dependencies:
+#   knife installed in your $PATH
+#
+# Configuration:
+#   knife configured in your $PATH, you'll see a WARNING in console if you don't have it
+#
+# Commands:
+#   hubot who do you know - List all the users with github logins tracked by Hubot
+#   hubot i am <maddox> - map your user to the github login <maddox>
+#   hubot who am i - reveal your mapped github login
+#   hubot forget me - de-map your user to your github login
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
 
   robot.respond /who do you know/i, (msg) ->

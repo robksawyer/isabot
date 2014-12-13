@@ -1,12 +1,21 @@
-# `hubot bang [--help|--list|--delete] <key> [value]` - Store and retrieve text snippets.
-
-# A Hubot interface for Bang, a key-value store for text snippets
-# http://git.io/bang
-
-# Dependent on "bang" and "shellwords" modules.
-
+# Description:
+#   A Hubot interface for Bang, a key-value store for text snippets. Read more at http://git.io/bang
+#
+# Dependencies:
+#  bang
+#  shellwords
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   hubot bang [--help|--list|--delete] <key> <value> - Store and retrieve text snippets.
+#
+# Author:
+#   unknown
+#
 Bang  = require "bang"
-{split} = require "shellwords"
+split = require "shellwords"
 
 module.exports = (robot) ->
   robot.respond /bang\s+(.*)/i, (msg) ->

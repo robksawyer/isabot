@@ -1,7 +1,20 @@
-# Shows a short history lesson of the day from the Computer History Museum.
+# Description:
+#   Shows a short history lesson of the day from the Computer History Museum.
+#   
+# Dependencies:
+#   soupselect
+#   htmlparser
+#   
+# Configuration:
+#   None
+#   
+# Commands:
+#   hubot [today in computer history|tdih|chm] - Displays the content from the This Day in History page on the Computer History Museum site.
 #
-# today in computer history|tdih|chm - Displays the content from the This Day in History page on the Computer History Museum site.
+# Author:
+#   unknown
 #
+
 Select     = require("soupselect").select
 HtmlParser = require "htmlparser"
 

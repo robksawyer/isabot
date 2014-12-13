@@ -37,6 +37,7 @@
     "nodepie": "^0.6.5",
     "path": "^0.4.9",
     "pypi": "^0.1.2",
+    "querystring": "^0.2.0",
     "sandbox": "^0.8.6",
     "scribe-node": "0.0.24",
     "shellwords": "^0.1.0",

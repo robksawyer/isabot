@@ -1,8 +1,19 @@
-# Show a random image from peopleofwalmart.com
+# Description:
+#   Show a random image from peopleofwalmart.com
 #
-# walmart me - Show random Walmart image
-# mart me - Show random Walmart image
-#     
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot walmart me - Show random Walmart image
+#   hubot mart me - Show random Walmart image
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /(wal)?mart( me)?/i, (msg) ->
     random = Math.floor(Math.random() * 770)

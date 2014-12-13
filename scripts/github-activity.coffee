@@ -1,5 +1,5 @@
 # Description:
-#   None
+#   Returns github activity for the public repo passed.
 #
 # Dependencies:
 #   "date-utils": ">=1.2.5"

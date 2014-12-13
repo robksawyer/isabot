@@ -1,6 +1,21 @@
-# Display a hyperbole and a half image if anyone says "like an adult"
+# Description:
+#   Display a hyperbole and a half image if anyone says "like an adult"
+#   Be an adult
+#   This is Why I'll Never be an Adult:
+#   Taken from: http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html
 #
-
+# Dependencies:
+#   None 
+#   
+# Configuration:
+#   None
+#      
+# Commands:
+#   like an adult
+#   
+# Author:
+#   unknown
+#
 images = [
   "http://1.bp.blogspot.com/_D_Z-D2tzi14/TBpOnhVqyAI/AAAAAAAADFU/8tfM4E_Z4pU/s400/responsibility12(alternate).png",
   "http://2.bp.blogspot.com/_D_Z-D2tzi14/TBpOglLvLgI/AAAAAAAADFM/I7_IUXh6v1I/s400/responsibility10.png",
@@ -15,7 +30,3 @@ images = [
 module.exports = (robot) ->
   robot.hear /like an adult/i, (msg) ->
     msg.send msg.random images
-
-# Be an adult
-# This is Why I'll Never be an Adult:
-# Taken from: http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html

@@ -1,6 +1,19 @@
-# Display a picture of Michael Jordan if anyone invokes "jordan" or says "23"
-# Cause Jordan is God. So much more than Steve Jobs :D 
-
+# Description:
+#   Display a picture of Michael Jordan if anyone invokes "jordan" or says "23". 
+#   Cause Jordan is God. So much more than Steve Jobs :D 
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot [jordan|23] - Returns an image of Michael Jordan
+#
+# Author:
+#   unknown
+#
 images = [
   "http://pictureloaders.com/images/pictures-of-michael-jordan18.jpg"
   "http://a7.idata.over-blog.com/0/54/95/85/Michael_Jordan1414.jpg"

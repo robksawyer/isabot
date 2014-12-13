@@ -13,15 +13,32 @@
 #   HUBOT_GITHUB_USER_(.*)
 #
 # Commands:
-#   If HUBOT_GITHUB_USER is set, you can ask `show me issues for hubot` instead
-#   of `show me issues for github/hubot`.
+#   If HUBOT_GITHUB_USER is set, you can ask:
+#   
+#   hubot show me issues for hubot
+#   
+#   instead of:
+#    
+#   hubot show me issues for github/hubot
 #
-#   If HUBOT_GITHUB_REPO is set, you can ask `show me issues` instead of `show
-#   me issues for github/hubot`.
+#   If HUBOT_GITHUB_REPO is set, you can ask:
+#   
+#   hubot show me issues
+#   
+#   instead of:
+#   
+#   hubot show me issues for github/hubot
 #
 #   If, for example, HUBOT_GITHUB_USER_JOHN is set to GitHub user login
-#   'johndoe1', you can ask `show john's issues` instead of `show johndoe1's
-#   issues`. This is useful for mapping chat handles to GitHub logins.
+#   'johndoe1', you can ask:
+#   
+#   hubot show john's issues
+#   
+#   instead of:
+#   
+#   hubot show johndoe1's issues 
+#   
+#   This is useful for mapping chat handles to GitHub logins.
 #
 #   hubot show [me] [<limit> [of]] [<assignee>'s|my] [<label>] issues [for <user/repo>] [about <query>] -- Shows open GitHub issues for repo.
 #

@@ -1,8 +1,18 @@
-# reddit (me) <reddit> [limit] - Lookup reddit topic
-
-# Topic lookup from reddit
-# Enrique Vidal - enrique@cloverinteractive.com
-
+# Description:
+#   Topic lookup from reddit
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot reddit (me) <reddit> [limit] - Lookup reddit topic
+#
+# Author:
+#   Enrique Vidal (enrique@cloverinteractive.com)
+#
 Select      = require( "soupselect" ).select
 HTMLParser  = require "htmlparser"
 

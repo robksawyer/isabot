@@ -1,10 +1,22 @@
-# Grabs movie scores from Rotten Tomatoes
-# 
-# rotten me <movie>
-# 
+# Description:
+#   Grabs movie scores from Rotten Tomatoes
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   HUBOT_ROTTEN_TOMATOES_API_KEY - Sign up at http://developer.rottentomatoes.com
+#
+# Commands:
+#   hubot rotten me <movie> - Grabs movie score from Rotten Tomatoes
+#   
 # Examples:
-# rotten me inception
-# rotten me the good, the bad, and the ugly
+#   hubot rotten me inception
+#   hubot rotten me the good, the bad, and the ugly
+#
+# Author:
+#   unknown
+#
 module.exports = (robot) ->
   robot.respond /rotten me (.*)$/i, (msg) ->
     api_key = process.env.HUBOT_ROTTEN_TOMATOES_API_KEY
