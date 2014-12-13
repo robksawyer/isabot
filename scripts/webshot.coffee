@@ -2,7 +2,7 @@
 #
 # webshot me <url> - Captures the given url as an image.
 
-hashlib = require('hashlib')
+hashlib = require('MD5')
 
 module.exports = (robot) ->
   robot.respond /webshot( me)? (.*)/i, (msg) ->
