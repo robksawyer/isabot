@@ -25,4 +25,4 @@ module.exports = (robot) ->
         body = body.substring col1
         match = body.match /http:\/\/media.peopleofwalmart.com\/wp-content\/uploads\/\d\d\d\d\/\d\d\/.+?\.jpg/g
         if (match) 
-          msg.send match[0])
+          msg.send match[0]
