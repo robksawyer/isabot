@@ -3,14 +3,14 @@
 #   This is specifically in order to work with apps that have GitHub Oauth users.
 #
 # Dependencies:
-#   knife installed in your $PATH
+#   "githubot": "0.2.0"
 #
 # Configuration:
-#   knife configured in your $PATH, you'll see a WARNING in console if you don't have it
+#   None
 #
 # Commands:
 #   hubot who do you know - List all the users with github logins tracked by Hubot
-#   hubot i am <maddox> - map your user to the github login <maddox>
+#   hubot i am <username> - map your user to the github login <username>
 #   hubot who am i - reveal your mapped github login
 #   hubot forget me - de-map your user to your github login
 #
