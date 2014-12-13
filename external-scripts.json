@@ -1,6 +1,11 @@
 [
+  "hubot-kaibaibo",
+  "hubot-pokemon",
+  "hubot-startupidea",
+  "hubot-marvin",
+  "hubot-pagespeed",
+  "hubot-in-space",
   "hubot-whois",
-  "hubot-speak",
   "hubot-browserstack",
   "hubot-cheese",
   "hubot-illegal-legal",

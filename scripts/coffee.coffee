@@ -29,7 +29,11 @@ module.exports = (robot) ->
     "http://theshot.coffeeratings.com/wp-content/11-2h/stumptownDowntown_3050.jpg",
     "https://greenegrape.files.wordpress.com/2010/10/stumptowncoffee.jpg",
     "http://www.ritzbites.com/blog/images/2007/08/20/intell_3.jpg",
-    "https://thirtydaysofnew.files.wordpress.com/2014/05/20140503-234828.jpg"
+    "https://thirtydaysofnew.files.wordpress.com/2014/05/20140503-234828.jpg",
+    "http://s3-media1.fl.yelpcdn.com/bphoto/15IrkZQci2aJkZcaJlrGSA/l.jpg",
+    "http://www.royalbaconsociety.com/wp-content/uploads/2014/08/Our-Name-Is-Mud-16-Ounce-I-Heart-Bacon-Mug-by-Lorrie-Veasey-45-Inch-0-400x400.jpg",
+    "http://www.royalbaconsociety.com/wp-content/uploads/2014/11/CafePress-Dont-go-bacon-my-heart-Mugs-Large-Mug-Standard-Multi-color-0-400x400.jpg",
+    "http://2.bp.blogspot.com/_vhJw7qcudXk/S-Ro6NZnf7I/AAAAAAAAFWQ/-yAYlJGDmr4/s1600/vacuum-coffee-maker.jpg"
   ]
 
   robot.hear /.*(coffee).*/i, (msg) ->
