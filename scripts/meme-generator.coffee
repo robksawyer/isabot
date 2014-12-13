@@ -8,23 +8,26 @@
 #   None
 #
 # Commands:
-#   hubot  Y U NO <text> - Generates the Y U NO GUY with the bottom caption of <text>
-#   I don't always <something> but when i do <text> - Generates The Most Interesting man in the World
-#   <text> ORLY? - Generates the ORLY? owl with the top caption of <text>
-#   <text> (SUCCESS|NAILED IT) - Generates success kid with the top caption of <text>
-#   <text> ALL the <things> - Generates ALL THE THINGS
+#   hubot Y U NO <text> - Generates the Y U NO GUY with the bottom caption of <text>
+#   hubot I don't always <something> but when i do <text> - Generates The Most Interesting man in the World
+#   hubot <text> ORLY? - Generates the ORLY? owl with the top caption of <text>
+#   hubot <text> (SUCCESS|NAILED IT) - Generates success kid with the top caption of <text>
+#   hubot <text> ALL the <things> - Generates ALL THE THINGS
 #   <text> TOO DAMN <high> - Generates THE RENT IS TOO DAMN HIGH guy
 #   Good news everyone! <news> - Generates Professor Farnsworth
-#   khanify <text> - TEEEEEEEEEEEEEEEEEXT!
+#   hubot khanify <text> - TEEEEEEEEEEEEEEEEEXT!
 #   Not sure if <text> or <text> - Generates Futurama Fry
 #   Yo dawg <text> so <text> - Generates Yo Dawg
 #   One does not simply <text> - Generates "one does not simply" 
-#   Scumbag <name> <text> - Generates Scumbag Steve
+#   hubot Scumbag <name> <text> - Generates Scumbag Steve
 #   What if I told you <text> - Generates Morpheus
 #   Prepare yourself <text> - Generates Ned
 #   Oh robot.name <text> - Generates Meme Dad
 #   Am I the only one around here <text> - Generates that
 #   Why don't we take all the <text> and <text> - put it over there patrick
+#   hubot [BILL GATES|WINDOWS]
+#   <text> WHY DON'T WE TAKE ALL THE
+#   PREPARE YOURSELF <text>
 #   
 # Author:
 #   unknown
