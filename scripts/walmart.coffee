@@ -14,7 +14,6 @@
 # Author:
 #   Fixed by robksawyer
 #
-Util = require('util')
 
 module.exports = (robot) ->
   robot.respond /(wal)?mart( me)?/i, (msg) ->
@@ -26,4 +25,4 @@ module.exports = (robot) ->
         body = body.substring col1
         match = body.match /http:\/\/media.peopleofwalmart.com\/wp-content\/uploads\/\d\d\d\d\/\d\d\/.+?\.jpg/g
         if (match) 
-          msg.send "#{Util.inspect(match[0])}"
+          msg.send match[0])
