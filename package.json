@@ -24,6 +24,7 @@
     "hubot-hate": "0.0.3",
     "hubot-help": "^0.1.1",
     "hubot-heroku-keepalive": "~0.0.4",
+    "hubot-hr-warning": "^2.1.0",
     "hubot-ikr": "0.0.3",
     "hubot-illegal-legal": "*",
     "hubot-in-space": "^2.0.0",
