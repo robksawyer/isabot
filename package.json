@@ -15,7 +15,7 @@
     "http-https": "^1.0.0",
     "http-sync": "0.0.5",
     "hubot": "^2.9.3",
-    "hubot-artsy": "~0.0.17",
+    "hubot-artsy": "~0.0.19",
     "hubot-browserstack": "~0.1.3",
     "hubot-cheese": "~0.0.61",
     "hubot-diagnostics": "~0.0.1",
