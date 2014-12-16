@@ -24,6 +24,9 @@ module.exports = (robot) ->
 
   robot.respond /kitten bomb(?: me)?( \d+)?$/i, (msg) ->
     kittens = msg.match[1] || 5
+    if kittens > 20
+      return msg.reply "Fuck off!"
+      
     msg.send(kittenMe()) for i in [1..kittens]
 
 kittenMe = (height, width)->
