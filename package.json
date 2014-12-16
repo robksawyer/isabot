@@ -34,7 +34,7 @@
     "hubot-marvin": "0.0.2",
     "hubot-mimic": "^0.1.1",
     "hubot-pagespeed": "0.0.3",
-    "hubot-pugme": "git@github.com:robksawyer/hubot-pugme.git",
+    "hubot-pugme": "git://github.com/robksawyer/hubot-pugme.git",
     "hubot-redis-brain": "~0.0.2",
     "hubot-rules": "^0.1.0",
     "hubot-scripts": "^2.5.16",
