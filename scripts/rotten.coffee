@@ -46,10 +46,10 @@ module.exports = (robot) ->
           message += "#{movie['runtime']} min, #{movie['mpaa_rating']}\n\n"
 
          if movie['ratings']['critics_score']
-          message += "Critics:\t" + "#{movie['ratings']['critics_score']}%" + "\t\"#{movie['ratings']['critics_rating']}\"\n" +
+          message += "Critics:\t" + "#{movie['ratings']['critics_score']}%" + "\t\"#{movie['ratings']['critics_rating']}\"\n"
         
          if movie['ratings']['audience_score']
-          message += "Audience:\t" + "#{movie['ratings']['audience_score']}%" + "\t\"#{movie['ratings']['audience_rating']}\"\n\n" +
+          message += "Audience:\t" + "#{movie['ratings']['audience_score']}%" + "\t\"#{movie['ratings']['audience_rating']}\"\n\n"
         
          if movie['critics_consensus']
           message += "#{movie['critics_consensus']}"
