@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "author": "robksawyer",
-  "description": "Isabot a bot? Eitherway Isabot is helping the minnow team clear the waters and take the stress out of the really hard decisions.",
+  "description": "Isabot a bot? Eitherway, Isabot is helping the minnow team clear the waters and take the stress out of the really hard decisions.",
   "dependencies": {
     "MD5": "^1.2.1",
     "bang": "^1.0.4",
