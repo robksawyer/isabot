@@ -30,9 +30,9 @@ module.exports = (robot) ->
         try
           feed.init()
           count = msg.match[1] || 5
-          if(count > 25){
+          if count > 25
             return msg.reply "DOS attacks do not compute."
-          }
+          
           items = feed.getItems(0, count)
           msg.send item.getTitle() + ": " + item.getPermalink() + " (" + item.getComments()?.html + ")" for item in items
         catch e
